@@ -4,6 +4,8 @@ HF_TOKEN = os.environ.get("HF_TOKEN", "")
 DATA_REPO = "P2SAMAPA/fi-etf-macro-signal-master-data"
 OUTPUT_REPO = "P2SAMAPA/p2-etf-functional-anova-results"
 
+MACRO_COLUMNS = ["VIX", "DXY", "T10Y2Y", "TBILL_3M", "IG_SPREAD", "HY_SPREAD"]
+
 UNIVERSES = {
     "FI_COMMODITIES": ["TLT", "VCIT", "LQD", "HYG", "VNQ", "GLD", "SLV"],
     "EQUITY_SECTORS": [
